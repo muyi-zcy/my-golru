@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"github.com/go-redis/redis/v7"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/muyi-zcy/my-golru/cache"
 	"log"
-	"my-golru/cache"
 	"time"
 )
 

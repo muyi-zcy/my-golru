@@ -2,8 +2,8 @@ package cache
 
 import (
 	"github.com/go-redis/redis/v7"
+	"github.com/muyi-zcy/my-golru/fetcher"
 	"log"
-	"my-golru/fetcher"
 )
 
 type CacheManager struct {

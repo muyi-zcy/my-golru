@@ -5,7 +5,7 @@
 ## 项目结构
 
 - **内存缓存**：基于内存实现的简单缓存，支持容量限制。
-- **Redis 缓存**：在 Redis 中存储缓存数据，支持通过哈希表存储键值对，并且实现了 LRU/FIFO 淘汰策略。
+- **Redis 缓存**：在 Redis 中存储缓存数据
 - **MySQL 数据库**：使用数据获取器从 MySQL 数据库获取数据。
 
 该项目支持两级缓存：内存缓存（一级缓存）和 Redis 缓存（二级缓存）。当数据在内存和 Redis 中都不存在时，它将从 MySQL 数据库加载。
@@ -22,4 +22,4 @@
 你可以通过 `go get` 命令来安装本项目：
 
 ```bash
-go get github.com/muyi_zcy/my-golru
+go get github.com/muyi-zcy/my-golru
